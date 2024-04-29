@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(154, 50, 245);
+    color: white;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.box{
+    height: 100px;
+    width:100px;
+    border: 2px solid;
+    border-color: rgb(49, 46, 46);
+    box-shadow: 0 0 0 2px rgb(36, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.status{
+    padding: 20px;
+    font-size: 25px;
+}
+button{
+    height:30px;
+    width: 100px;
+    margin-left: 40px;
+    background-color: white;
+    color:rgb(154, 50, 245);
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: larger;
+}
